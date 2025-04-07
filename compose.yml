@@ -1,9 +1,18 @@
 services:
-  app:
+  api:
     build:
-      context: .
+      context: ./api
       dockerfile: Dockerfile
     ports:
-      - "8000:8000"
+      - "5000:5000"
     volumes:
+      - .:/app
+
+  app:
+    build:
+      context: ./app
+      dockerfile: Dockerfile
+    ports:
+      - "3000:3000"
+    volumes:  
       - .:/app
