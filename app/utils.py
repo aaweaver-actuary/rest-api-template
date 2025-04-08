@@ -1,6 +1,7 @@
 import requests
 
 ENDPOINT = "http://api:5000/calculate"
+DOCS_ENDPOINT = "http://localhost:5005/docs"
 
 
 def get_price(base: float = 100.0, mod: float = 1, endpoint: str = ENDPOINT):
