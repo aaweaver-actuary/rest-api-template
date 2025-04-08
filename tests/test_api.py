@@ -2,7 +2,7 @@ import json
 from api.main import PricingInput, app
 from fastapi.testclient import TestClient
 import pytest
-from model.pricing_model import calculate_price
+# from model.pricing_model import calculate_price
 
 
 @pytest.fixture

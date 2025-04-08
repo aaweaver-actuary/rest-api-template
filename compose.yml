@@ -1,5 +1,6 @@
 services:
   api:
+    container_name: pricing-model-api
     build:
       context: ./api
       dockerfile: Dockerfile
@@ -9,6 +10,7 @@ services:
       - .:/app
 
   app:
+    container_name: pricing-model-ui
     build:
       context: ./app
       dockerfile: Dockerfile
