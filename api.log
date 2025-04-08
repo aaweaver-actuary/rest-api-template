@@ -1,0 +1,104 @@
+2025-04-08 07:29:14,012 - INFO - pricing-api - Incomming Request: GET http://localhost:5000/
+2025-04-08 07:29:14,014 - INFO - pricing-api - Root endpoint called
+2025-04-08 07:29:14,015 - INFO - pricing-api - Response status: 200
+2025-04-08 07:35:45,799 - INFO - pricing-api - Incomming Request: GET http://localhost:5005/
+2025-04-08 07:35:45,800 - INFO - pricing-api - Root endpoint called
+2025-04-08 07:35:45,801 - INFO - pricing-api - Response status: 200
+2025-04-08 07:35:54,548 - INFO - pricing-api - Incomming Request: GET http://localhost:5005/healthcheck
+2025-04-08 07:35:54,549 - INFO - pricing-api - Healthcheck endpoint called
+2025-04-08 07:35:54,550 - INFO - pricing-api - Response status: 200
+2025-04-08 07:36:39,484 - INFO - pricing-api - Incomming Request: GET http://localhost:5005/
+2025-04-08 07:36:39,486 - INFO - pricing-api - Root endpoint called
+2025-04-08 07:36:39,487 - INFO - pricing-api - Response status: 200
+2025-04-08 07:36:39,535 - INFO - pricing-api - Incomming Request: GET http://localhost:5005/favicon.ico
+2025-04-08 07:36:39,536 - INFO - pricing-api - Response status: 404
+2025-04-08 07:38:05,062 - INFO - pricing-api - Incomming Request: GET http://localhost:5005/docs
+2025-04-08 07:38:05,063 - INFO - pricing-api - Response status: 200
+2025-04-08 07:38:05,286 - INFO - pricing-api - Incomming Request: GET http://localhost:5005/openapi.json
+2025-04-08 07:38:05,291 - INFO - pricing-api - Response status: 200
+2025-04-08 07:38:28,820 - INFO - pricing-api - Incomming Request: POST http://localhost:5005/calculate
+2025-04-08 07:38:28,821 - INFO - pricing-api - Received input data: base_rate=100.0 modifier=1.5
+2025-04-08 07:38:28,822 - INFO - pricing-api - Calculated price: 150.0
+2025-04-08 07:38:28,823 - INFO - pricing-api - Response status: 200
+2025-04-08 07:47:31,488 - INFO - pricing-api - Incomming Request: POST http://localhost:5005/calculate
+2025-04-08 07:47:31,489 - INFO - pricing-api - Received input data: base_rate=100.0 modifier=1.5
+2025-04-08 07:47:31,490 - INFO - pricing-api - Calculated price: 150.0
+2025-04-08 07:47:31,490 - INFO - pricing-api - Response status: 200
+2025-04-08 03:47:44,278 - INFO - pricing-api - Incomming Request: POST http://testserver/calculate
+2025-04-08 03:47:44,279 - INFO - pricing-api - Received input data: base_rate=100.0 modifier=1.5
+2025-04-08 03:47:44,279 - INFO - pricing-api - Calculated price: 150.0
+2025-04-08 03:47:44,279 - INFO - pricing-api - Response status: 200
+2025-04-08 03:47:44,283 - INFO - pricing-api - Incomming Request: POST http://testserver/calculate
+2025-04-08 03:47:44,284 - INFO - pricing-api - Response status: 422
+2025-04-08 03:48:49,515 - INFO - pricing-api - Incomming Request: POST http://testserver/calculate
+2025-04-08 03:48:49,516 - INFO - pricing-api - Received input data: base_rate=100.0 modifier=1.5
+2025-04-08 03:48:49,516 - INFO - pricing-api - Calculated price: 150.0
+2025-04-08 03:48:49,516 - INFO - pricing-api - Response status: 200
+2025-04-08 03:48:49,520 - INFO - pricing-api - Incomming Request: POST http://testserver/calculate
+2025-04-08 03:48:49,520 - INFO - pricing-api - Response status: 422
+2025-04-08 03:49:36,647 - INFO - pricing-api - Incomming Request: POST http://testserver/calculate
+2025-04-08 03:49:36,648 - INFO - pricing-api - Received input data: base_rate=100.0 modifier=1.5
+2025-04-08 03:49:36,648 - INFO - pricing-api - Calculated price: 150.0
+2025-04-08 03:49:36,649 - INFO - pricing-api - Response status: 200
+2025-04-08 03:49:36,652 - INFO - pricing-api - Incomming Request: POST http://testserver/calculate
+2025-04-08 03:49:36,653 - INFO - pricing-api - Response status: 422
+2025-04-08 03:50:07,497 - INFO - pricing-api - Incomming Request: POST http://testserver/calculate
+2025-04-08 03:50:07,499 - INFO - pricing-api - Received input data: base_rate=100.0 modifier=1.5
+2025-04-08 03:50:07,499 - INFO - pricing-api - Calculated price: 150.0
+2025-04-08 03:50:07,499 - INFO - pricing-api - Response status: 200
+2025-04-08 03:50:07,503 - INFO - pricing-api - Incomming Request: POST http://testserver/calculate
+2025-04-08 03:50:07,504 - INFO - pricing-api - Response status: 422
+2025-04-08 03:51:33,807 - INFO - pricing-api - Incomming Request: POST http://testserver/calculate
+2025-04-08 03:51:33,808 - INFO - pricing-api - Received input data: base_rate=100.0 modifier=1.5
+2025-04-08 03:51:33,808 - INFO - pricing-api - Calculated price: 150.0
+2025-04-08 03:51:33,808 - INFO - pricing-api - Response status: 200
+2025-04-08 03:51:33,811 - INFO - pricing-api - Incomming Request: POST http://testserver/calculate
+2025-04-08 03:51:33,811 - INFO - pricing-api - Response status: 422
+2025-04-08 03:52:44,252 - INFO - pricing-api - Incomming Request: POST http://testserver/calculate
+2025-04-08 03:52:44,254 - INFO - pricing-api - Received input data: base_rate=100.0 modifier=1.5
+2025-04-08 03:52:44,254 - INFO - pricing-api - Calculated price: 150.0
+2025-04-08 03:52:44,254 - INFO - pricing-api - Response status: 200
+2025-04-08 03:52:44,257 - INFO - pricing-api - Incomming Request: POST http://testserver/calculate
+2025-04-08 03:52:44,258 - INFO - pricing-api - Response status: 422
+2025-04-08 07:52:44,292 - INFO - pricing-api - Incomming Request: POST http://localhost:5005/calculate
+2025-04-08 07:52:44,294 - INFO - pricing-api - Received input data: base_rate=100.0 modifier=1.5
+2025-04-08 07:52:44,294 - INFO - pricing-api - Calculated price: 150.0
+2025-04-08 07:52:44,295 - INFO - pricing-api - Response status: 200
+2025-04-08 03:55:28,532 - INFO - pricing-api - Incomming Request: POST http://testserver/calculate
+2025-04-08 03:55:28,533 - INFO - pricing-api - Received input data: base_rate=100.0 modifier=1.5
+2025-04-08 03:55:28,533 - INFO - pricing-api - Calculated price: 150.0
+2025-04-08 03:55:28,533 - INFO - pricing-api - Response status: 200
+2025-04-08 03:55:28,536 - INFO - pricing-api - Incomming Request: POST http://testserver/calculate
+2025-04-08 03:55:28,537 - INFO - pricing-api - Response status: 422
+2025-04-08 03:56:42,889 - INFO - pricing-api - Incomming Request: POST http://testserver/calculate
+2025-04-08 03:56:42,890 - INFO - pricing-api - Received input data: base_rate=100.0 modifier=1.5
+2025-04-08 03:56:42,890 - INFO - pricing-api - Calculated price: 150.0
+2025-04-08 03:56:42,890 - INFO - pricing-api - Response status: 200
+2025-04-08 03:56:42,893 - INFO - pricing-api - Incomming Request: POST http://testserver/calculate
+2025-04-08 03:56:42,894 - INFO - pricing-api - Response status: 422
+2025-04-08 04:00:02,831 - INFO - pricing-api - Incomming Request: POST http://testserver/calculate
+2025-04-08 04:00:02,833 - INFO - pricing-api - Received input data: base_rate=100.0 modifier=1.5
+2025-04-08 04:00:02,833 - INFO - pricing-api - Calculated price: 150.0
+2025-04-08 04:00:02,833 - INFO - pricing-api - Response status: 200
+2025-04-08 04:00:02,838 - INFO - pricing-api - Incomming Request: POST http://testserver/calculate
+2025-04-08 04:00:02,840 - INFO - pricing-api - Response status: 422
+2025-04-08 04:02:44,191 - INFO - pricing-api - Incomming Request: POST http://testserver/calculate
+2025-04-08 04:02:44,192 - INFO - pricing-api - Received input data: base_rate=100.0 modifier=1.5
+2025-04-08 04:02:44,193 - INFO - pricing-api - Calculated price: 150.0
+2025-04-08 04:02:44,193 - INFO - pricing-api - Response status: 200
+2025-04-08 04:02:44,196 - INFO - pricing-api - Incomming Request: POST http://testserver/calculate
+2025-04-08 04:02:44,196 - INFO - pricing-api - Response status: 422
+2025-04-08 04:05:01,199 - INFO - pricing-api - Incomming Request: POST http://testserver/calculate
+2025-04-08 04:05:01,201 - INFO - pricing-api - Received input data: base_rate=100.0 modifier=1.5
+2025-04-08 04:05:01,201 - INFO - pricing-api - Calculated price: 150.0
+2025-04-08 04:05:01,201 - INFO - pricing-api - Response status: 200
+2025-04-08 04:05:01,204 - INFO - pricing-api - Incomming Request: POST http://testserver/calculate
+2025-04-08 04:05:01,204 - INFO - pricing-api - Response status: 422
+2025-04-08 08:08:47,984 - INFO - pricing-api - Incomming Request: POST http://api:5000/calculate
+2025-04-08 08:08:47,986 - INFO - pricing-api - Received input data: base_rate=100.0 modifier=1.0
+2025-04-08 08:08:47,988 - INFO - pricing-api - Calculated price: 100.0
+2025-04-08 08:08:47,991 - INFO - pricing-api - Response status: 200
+2025-04-08 08:08:56,548 - INFO - pricing-api - Incomming Request: POST http://api:5000/calculate
+2025-04-08 08:08:56,550 - INFO - pricing-api - Received input data: base_rate=100.0 modifier=1.5
+2025-04-08 08:08:56,550 - INFO - pricing-api - Calculated price: 150.0
+2025-04-08 08:08:56,551 - INFO - pricing-api - Response status: 200

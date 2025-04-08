@@ -5,7 +5,9 @@ services:
       context: ./api
       dockerfile: Dockerfile
     ports:
-      - "5000:5000"
+      - "5005:5000"
+    networks:
+      - app-network
     volumes:
       - .:/app
 
@@ -15,6 +17,16 @@ services:
       context: ./app
       dockerfile: Dockerfile
     ports:
-      - "3000:3000"
+      - "3003:3000"
+    depends_on:
+      - api
+    networks:
+      - app-network
     volumes:  
       - .:/app
+
+networks:
+  app-network:
+    driver: bridge
+    driver_opts:
+      com.docker.network.bridge.name: app-network

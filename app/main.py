@@ -1,5 +1,5 @@
 import streamlit as st
-from .utils import ENDPOINT, get_price
+from utils import ENDPOINT, get_price
 
 st.title("Simple Pricing Model API")
 

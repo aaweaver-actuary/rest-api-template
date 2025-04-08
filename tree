@@ -1,0 +1,31 @@
+.
+|-- Makefile
+|-- README.md
+|-- api
+|   |-- Dockerfile
+|   |-- __init__.py
+|   |-- logger.py
+|   |-- main.py
+|   `-- requirements.txt
+|-- api.log
+|-- app
+|   |-- Dockerfile
+|   |-- README.md
+|   |-- __init__.py
+|   |-- main.py
+|   |-- requirements.txt
+|   `-- utils.py
+|-- compose.yml
+|-- model
+|   |-- __init__.py
+|   `-- pricing_model.py
+|-- pyproject.toml
+|-- tests
+|   |-- __init__.py
+|   |-- test_api.py
+|   |-- test_basic_pricing_model.py
+|   `-- test_utils.py
+|-- tree
+`-- uv.lock
+
+5 directories, 24 files
