@@ -1,7 +1,7 @@
 [project]
-name = "rest-api-template"
+name = "elligible-naics-service"
 version = "0.1.0"
-description = "A template for a REST API using FastAPI and Pydantic."
+description = "REST API service that accepts an input naics code and returns an object with CLD hit ratio, CLD decline ratio, submission count"
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
@@ -12,6 +12,9 @@ dependencies = [
     "asyncio>=3.4.3",
     "httpx>=0.28.1",
     "streamlit>=1.44.1",
+    "polars>=1.27.1",
+    "duckdb>=1.2.2",
+    "fastexcel>=0.13.0",
 ]
 
 [dependency-groups]

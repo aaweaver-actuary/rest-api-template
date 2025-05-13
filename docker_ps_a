@@ -1,3 +1,0 @@
-CONTAINER ID   IMAGE                   COMMAND                  CREATED         STATUS         PORTS                                         NAMES
-0e0fed0271ac   rest-api-template-app   "streamlit run app/m…"   5 minutes ago   Up 5 minutes   0.0.0.0:3000->3000/tcp, [::]:3000->3000/tcp   pricing-model-ui
-b4f5f2732fa2   rest-api-template-api   "uvicorn api.main:ap…"   5 minutes ago   Up 5 minutes   0.0.0.0:5000->5000/tcp, [::]:5000->5000/tcp   pricing-model-api
